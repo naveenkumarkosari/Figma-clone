@@ -9,6 +9,7 @@ const LiveCursors = ({ others }: LiveCursorProps) => {
       return null;
     }
 
+    
     return (
       <Cursor
         key={connectionId}
